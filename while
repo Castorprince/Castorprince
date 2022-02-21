@@ -1,0 +1,13 @@
+#!/bin/bash
+#This is a script to monior cpu storage
+echo "Please enter your name"
+read name
+echo "enter your password"
+read password
+echo "you can now run while loop"
+cpu=100
+while [ $cpu -le 1500 ]
+do 
+echo $cpu
+     
+done
